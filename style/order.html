@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beer store</title>
+    <link rel="stylesheet" href="/style/form.css">
+</head>
+<body>
+    <nav>
+<div class="topnav">
+    <a class="logo" href="index.html"> <img src="/images/logo.png" alt=""></a>
+    <a  href="index.html">Home</a>
+    <a href="all-beers-html">See All Beers</a>
+    <a class="active" href="order.html">Oreder a beer</a>
+    <a class="right " href="register.html"> Regiser</a>
+    <a class="right" href="login.html"> Log in</a>
+</div>
+    </nav>
+    <main>
+<center>
+<h1> Order a beer</h1>
+<br>
+<form action="">
+
+<label for="brand">Brand</label>
+<br>
+<select name="brand" id="brand">
+    <option selected disabled >Select a brand</option>
+
+    <option value="">Hinicken</option>
+    <option value="">Corona</option>
+    <option value="">Stella</option>
+    <option value="">Carlborg</option>
+</select>
+
+<label for="q">Quantity</label>
+<br>
+<input type="number"   placeholder="Enter anomount of beers" id="q" min="1" max="15">
+
+<br>
+
+
+<select name="destination" id="des">
+    <option selected disabled >Select a destination</option>
+
+    <option value="">address1</option>
+    <option value="">add2</option>
+    <option value="">add3</option>
+    <option value="">add4</option>
+</select>
+<label for="birthday">Enter your birthday</label>
+<br>
+<input type="date"   placeholder="birthday" >
+
+<label for="password">Write your message!</label>
+
+<br>
+<textarea name="message" id="" cols="30" rows="10"> share your opinion with us!</textarea>
+
+<input type="submit" value="shop">
+
+</form>
+
+</center>
+    </main>
+    <footer>
+        <hr>
+        <p> <em>&copy; 2020 &ndash; Beer Store</em></p>
+    </footer>
+</body>
+</html>
